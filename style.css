@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for Layout */
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Left Section (Red Background) */
+.left {
+    width: 40%;
+    background-color: #a53c3c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    color: white;
+}
+
+/* Vertical Japanese Text */
+.vertical-text {
+    writing-mode: vertical-rl;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+}
+
+/* Sushi Images */
+.sushi-img {
+    width: 150px;
+    margin: 20px 0;
+}
+
+/* Right Section (Beige Background) */
+.right {
+    width: 60%;
+    background-color: #faebd7;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Stats Section */
+.stats h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.stats p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Text Content */
+.content .subtitle {
+    font-size: 14px;
+    color: #888;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
